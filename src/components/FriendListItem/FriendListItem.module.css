@@ -1,0 +1,41 @@
+.friendListItemContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.friendListItemImg {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friendDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.friendName {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.onlineOffline {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.onlineOffline.online {
+  color: green;
+}
+
+.onlineOffline.offline {
+  color: red;
+}
